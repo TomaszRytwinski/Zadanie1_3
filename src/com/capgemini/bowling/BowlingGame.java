@@ -15,8 +15,8 @@ public class BowlingGame implements BowlingGameResultCalculator {
 		}
 	}
 
-	private void addBonus(int _kolejka, int numberOfPins){
-		tableOfScore[2][_kolejka]=tableOfScore[2][_kolejka]+numberOfPins;
+	private void addBonus(int _round, int numberOfPins){
+		tableOfScore[2][_round]=tableOfScore[2][_round]+numberOfPins;
 		
 	}
 	public void roll(int numberOfPins) throws IllegalStateException{
